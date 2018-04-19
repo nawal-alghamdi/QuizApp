@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="quiz_name">Computer Systems Security Quiz</string>
+    <string name="q1_fill_in_the_blank">Q1: Fill in the blank</string>
+    <string name="a">a- </string>
+    <string name="question1_a">a- It describes a method of ensuring that a subject is the entity it claims to be.</string>
+    <string name="b">b- </string>
+    <string name="q2_choose_the_correct_answer">Q2: Choose the correct answer</string>
+    <string name="dac">DAC</string>
+    <string name="mac">MAC</string>
+    <string name="rbac">RBAC</string>
+    <string name="question1_b">b- A person with good IT skills that can find security holes of the designed systems.</string>
+    <string name="question2_a">a- It is the most widely used of the three access control models: (one answer)</string>
+    <string name="question2_b">b- It isn\'t an example of symmetric key distribution: (one answer)</string>
+    <string name="deffie_hellman_agreement">Deffie-Hellman agreement</string>
+    <string name="trusted_center">Trusted center</string>
+    <string name="kerberos">Kerberos</string>
+    <string name="question2_c">c- Integrity can be provided by: (two answers)</string>
+    <string name="strict_access_controls">Strict access controls</string>
+    <string name="authentication">Authentication</string>
+    <string name="authorization">Authorization</string>
+    <string name="hashing">Hashing</string>
+    <string name="submit">Submit</string>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="24dp"
+            android:text="@string/quiz_name"
+            android:textSize="24sp" />
+
+
+        <TextView
+            style="@style/QuestionTextView"
+            android:paddingBottom="8dp"
+            android:text="@string/q1_fill_in_the_blank" />
+
+        <TextView
+            style="@style/TextView"
+            android:text="@string/question1_a" />
+
+        <EditText
+            android:id="@+id/q1_a_answer_editText"
+            style="@style/EditText"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            style="@style/TextView"
+            android:text="@string/question1_b" />
+
+        <EditText
+            android:id="@+id/q1_b_answer_editText"
+            style="@style/EditText"
+            android:layout_marginBottom="16dp" />
+
+
+        <TextView
+            style="@style/QuestionTextView"
+            android:paddingBottom="8dp"
+            android:text="@string/q2_choose_the_correct_answer" />
+
+        <RadioGroup
+            style="@style/RadioGroup"
+            android:paddingBottom="8dp">
+
+            <TextView
+                style="@style/TextView"
+                android:text="@string/question2_a" />
+
+            <RadioButton
+                android:id="@+id/dac_radio_button"
+                style="@style/RadioButton"
+                android:text="@string/dac" />
+
+            <RadioButton
+                android:id="@+id/mac_radio_button"
+                style="@style/RadioButton"
+                android:text="@string/mac" />
+
+            <RadioButton
+                android:id="@+id/rbac_radio_button"
+                style="@style/RadioButton"
+                android:text="@string/rbac" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            style="@style/RadioGroup"
+            android:paddingBottom="8dp">
+
+            <TextView
+                style="@style/TextView"
+                android:text="@string/question2_b" />
+
+            <RadioButton
+                android:id="@+id/deffie_hellman_radio_button"
+                style="@style/RadioButton"
+                android:text="@string/deffie_hellman_agreement" />
+
+            <RadioButton
+                android:id="@+id/trusted_center_radio_button"
+                style="@style/RadioButton"
+                android:text="@string/trusted_center" />
+
+            <RadioButton
+                android:id="@+id/kerberos_radio_button"
+                style="@style/RadioButton"
+                android:text="@string/kerberos" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextView"
+            android:text="@string/question2_c" />
+
+        <CheckBox
+            android:id="@+id/strict_access_controls_checkBox"
+            style="@style/CheckBox"
+            android:text="@string/strict_access_controls" />
+
+        <CheckBox
+            android:id="@+id/authentication_checkBox"
+            style="@style/CheckBox"
+            android:text="@string/authentication" />
+
+        <CheckBox
+            android:id="@+id/authorization_checkBox"
+            style="@style/CheckBox"
+            android:text="@string/authorization" />
+
+        <CheckBox
+            android:id="@+id/hashing_checkBox"
+            style="@style/CheckBox"
+            android:text="@string/hashing" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:onClick="submit"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+
+</ScrollView>
